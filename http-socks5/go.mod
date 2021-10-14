@@ -1,4 +1,4 @@
-module github.com/ubogdan.com/go-playground/http-socks5
+module github.com/ubogdan/go-playground/http-socks5
 
 go 1.17
 

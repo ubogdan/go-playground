@@ -11,25 +11,6 @@ import (
 )
 
 func main() {
-	myClient := http.Client{}
-
-	res, err := myClient.Get("https://ifconfig.co/ip")
-	if err != nil {
-		log.Fatalf("http.GET failed:%s", err)
-	}
-	defer res.Body.Close()
-
-	ip, err := ioutil.ReadAll(res.Body)
-	if err != nil {
-		log.Fatalf("ioutil.Read failed %s", err)
-	}
-
-	log.Printf("IP %s", ip)
-
-	mainr()
-}
-
-func mainr() {
 	auth := proxy.Auth{
 		User:     os.Getenv("PROXY_USERNAME"),
 		Password: os.Getenv("PROXY_PASSWORD"),
