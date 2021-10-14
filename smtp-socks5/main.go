@@ -52,7 +52,7 @@ func smtp_dial(dialer proxy.Dialer, address string) error {
 		conn = tls.Client(conn, &tlsConfig)
 	}
 
-	client, err := smtp.NewClient(conn, "smtp.gmail.com:465")
+	client, err := smtp.NewClient(conn, address)
 	if err != nil {
 		return fmt.Errorf("smtp.NewClient failed: %s", err)
 	}
@@ -64,7 +64,7 @@ func smtp_dial(dialer proxy.Dialer, address string) error {
 		}
 	}
 
-	smtpAuth := smtp.PlainAuth("", "mymailaddr@gmail.com", "", hostname+":465")
+	smtpAuth := smtp.PlainAuth("", "mymailaddr@gmail.com", "", address)
 
 	err = client.Auth(smtpAuth)
 	if err != nil {
