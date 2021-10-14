@@ -5,6 +5,9 @@
 *.so
 *.dylib
 
+# Secrets should stay secret
+.env
+
 # Test binary, built with `go test -c`
 *.test
 
