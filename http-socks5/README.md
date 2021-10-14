@@ -1,3 +1,3 @@
 http-socks5
 ___________
-Example using a http client over a  authentication enabled SOCK5 proxy.
+Example using an HTTP client over an authentication enabled SOCK5 proxy.
