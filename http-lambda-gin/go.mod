@@ -3,9 +3,9 @@ module github.com/ubogdan/go-playground/http-lambda-gin
 go 1.17
 
 require (
-	github.com/aws/aws-lambda-go v1.27.0
-	github.com/awslabs/aws-lambda-go-api-proxy v0.11.0
-	github.com/gin-gonic/gin v1.7.4
+	github.com/aws/aws-lambda-go v1.31.0
+	github.com/awslabs/aws-lambda-go-api-proxy v0.13.2
+	github.com/gin-gonic/gin v1.7.7
 )
 
 require (
@@ -20,8 +20,9 @@ require (
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.1 // indirect
 	github.com/ugorji/go/codec v1.1.7 // indirect
-	golang.org/x/crypto v0.0.0-20200820211705-5c72a883971a // indirect
-	golang.org/x/sys v0.0.0-20201016160150-f659759dc4ca // indirect
+	golang.org/x/crypto v0.0.0-20220411220226-7b82a4e95df4 // indirect
+	golang.org/x/net v0.0.0-20220425223048-2871e0cb64e4 // indirect
+	golang.org/x/sys v0.0.0-20220227234510-4e6760a101f9 // indirect
 	google.golang.org/protobuf v1.25.0 // indirect
-	gopkg.in/yaml.v2 v2.3.0 // indirect
+	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
