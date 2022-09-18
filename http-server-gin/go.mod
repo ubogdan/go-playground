@@ -1,4 +1,4 @@
-module github.com/ubogdan/go-playground/http--sergin
+module github.com/ubogdan/go-playground/http-server-gin
 
 go 1.17
 
