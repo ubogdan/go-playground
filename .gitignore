@@ -17,6 +17,9 @@
 # Dependency directories (remove the comment below to include it)
 # vendor/
 
+# Goland IDE
+.idea
+
 # Secrets
 id_rsa
 id_rsa.pub
