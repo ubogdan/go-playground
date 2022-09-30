@@ -5,7 +5,7 @@ go 1.17
 require (
 	github.com/aws/aws-lambda-go v1.31.0
 	github.com/awslabs/aws-lambda-go-api-proxy v0.13.2
-	github.com/labstack/echo/v4 v4.7.2
+	github.com/labstack/echo/v4 v4.9.0
 )
 
 require (
