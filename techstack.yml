@@ -1,0 +1,76 @@
+repo_name: ubogdan/go-playground
+report_id: 8f3a4b0bccc434c04d015fa46f1c36ac
+repo_type: Public
+timestamp: '2023-11-09T22:03:08+00:00'
+requested_by: ubogdan
+provider: github
+branch: main
+detected_tools_count: 6
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source: Repo Metadata
+- name: Echo
+  description: High performance, extensible, minimalist Go web framework
+  website_url: https://echo.labstack.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/4996/9P0MlumU_400x400.jpg
+  detection_source: http-lambda-echo/go.mod
+  last_updated_by: Bogdan Ungureanu
+  last_updated_on: 2021-10-27 20:00:14.000000000 Z
+- name: Gin Gonic
+  description: 'HTTP web framework written in Go '
+  website_url: https://gin-gonic.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/4221/7894478.png
+  detection_source: http-server-gin/go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-06-01 20:35:18.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source: http-server-gin/go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-06-01 20:35:18.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: AWS Lambda
+  description: Automatically run code in response to modifications to objects in Amazon
+    S3 buckets, messages in Kinesis streams, or updates in DynamoDB
+  website_url: http://aws.amazon.com/lambda
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Serverless / Task Processing
+  image_url: https://img.stackshare.io/service/1909/aws-lambda.png
+  detection_source: http-lambda-signal/go.mod
+  last_updated_by: Bogdan Ungureanu
+  last_updated_on: 2022-04-27 14:51:25.000000000 Z
