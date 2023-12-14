@@ -1,11 +1,11 @@
 repo_name: ubogdan/go-playground
-report_id: 8f3a4b0bccc434c04d015fa46f1c36ac
+report_id: 24fe52dd249ffee012eb5fa85a08cce2
 repo_type: Public
-timestamp: '2023-11-09T22:03:08+00:00'
+timestamp: '2023-12-14T09:59:21+00:00'
 requested_by: ubogdan
 provider: github
 branch: main
-detected_tools_count: 6
+detected_tools_count: 27
 tools:
 - name: Golang
   description: An open source programming language that makes it easy to build simple,
@@ -39,7 +39,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/4221/7894478.png
-  detection_source: http-server-gin/go.mod
+  detection_source: http-lambda-gin/go.mod
   last_updated_by: dependabot[bot]
   last_updated_on: 2023-06-01 20:35:18.000000000 Z
 - name: Protobuf
@@ -50,7 +50,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Serialization Frameworks
   image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
-  detection_source: http-server-gin/go.mod
+  detection_source: http-lambda-gin/go.mod
   last_updated_by: dependabot[bot]
   last_updated_on: 2023-06-01 20:35:18.000000000 Z
 - name: Git
@@ -71,6 +71,318 @@ tools:
   category: Application Hosting
   sub_category: Serverless / Task Processing
   image_url: https://img.stackshare.io/service/1909/aws-lambda.png
-  detection_source: http-lambda-signal/go.mod
+  detection_source: http-lambda-echo/go.mod
   last_updated_by: Bogdan Ungureanu
   last_updated_on: 2022-04-27 14:51:25.000000000 Z
+- name: bytebufferpool
+  description: Anti-memory-waste byte buffer pool
+  package_url: https://pkg.go.dev/github.com/valyala/bytebufferpool
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ubogdan/go-playground/blob/main/http-lambda-echo/go.sum
+  detection_source: http-lambda-echo/go.mod
+  last_updated_by: Bogdan Ungureanu
+  last_updated_on: 2021-10-27 20:00:14.000000000 Z
+- name: codec
+  description: Idiomatic codec and rpc lib for msgpack, cbor, json, etc
+  package_url: https://pkg.go.dev/github.com/ugorji/go/codec
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ubogdan/go-playground/blob/main/http-lambda-echo/go.sum
+  detection_source: http-lambda-gin/go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-06-01 20:35:18.000000000 Z
+- name: crypto
+  description: Go supplementary cryptography libraries
+  package_url: https://pkg.go.dev/golang.org/x/crypto
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ubogdan/go-playground/blob/main/chat-gpt-repl/go.sum
+  detection_source: http-lambda-echo/go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-11 23:24:33.000000000 Z
+  vulnerabilities:
+  - name: Improper Verification of Cryptographic Signature in golang.org/x/crypto
+    cve_id: CVE-2020-9283
+    cve_url: https://github.com/advisories/GHSA-ffhg-7mh4-33c4
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.0.0-20200220183623-bac4c82f6975
+- name: fasttemplate
+  description: Simple and fast template engine for Go
+  package_url: https://pkg.go.dev/github.com/valyala/fasttemplate
+  version: 1.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ubogdan/go-playground/blob/main/http-lambda-echo/go.sum
+  detection_source: http-lambda-echo/go.mod
+  last_updated_by: Bogdan Ungureanu
+  last_updated_on: 2021-10-27 20:00:14.000000000 Z
+- name: gin
+  description: Gin is a HTTP web framework written in Go
+  package_url: https://pkg.go.dev/github.com/gin-gonic/gin
+  version: 1.7.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ubogdan/go-playground/blob/main/http-lambda-echo/go.sum
+  detection_source: http-lambda-gin/go.mod
+  last_updated_by: Bogdan Ungureanu
+  last_updated_on: 2021-10-27 20:06:32.000000000 Z
+- name: gliderlabs/ssh
+  description: Easy SSH servers in Golang
+  package_url: https://pkg.go.dev/github.com/gliderlabs/ssh
+  version: 0.3.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ubogdan/go-playground/blob/main/ssh-server/go.sum
+  detection_source: ssh-server/go.mod
+  last_updated_by: Bogdan Ungureanu
+  last_updated_on: 2022-04-27 14:56:43.000000000 Z
+- name: go-colorable
+  description: Go-colorable Colorable writer for windows
+  package_url: https://pkg.go.dev/github.com/mattn/go-colorable
+  version: 0.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ubogdan/go-playground/blob/main/http-lambda-echo/go.sum
+  detection_source: http-lambda-echo/go.mod
+  last_updated_by: Bogdan Ungureanu
+  last_updated_on: 2022-02-05 22:03:42.000000000 Z
+- name: go-isatty
+  description: Package isatty implements interface to isatty
+  package_url: https://pkg.go.dev/github.com/mattn/go-isatty
+  version: 0.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ubogdan/go-playground/blob/main/http-lambda-echo/go.sum
+  detection_source: http-lambda-echo/go.mod
+  last_updated_by: Bogdan Ungureanu
+  last_updated_on: 2021-10-27 20:00:14.000000000 Z
+- name: gommon
+  description: Common packages for Go
+  package_url: https://pkg.go.dev/github.com/labstack/gommon
+  version: 0.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ubogdan/go-playground/blob/main/http-lambda-echo/go.sum
+  detection_source: http-lambda-echo/go.mod
+  last_updated_by: Bogdan Ungureanu
+  last_updated_on: 2022-02-05 22:03:42.000000000 Z
+- name: json-iterator/go
+  description: A high-performance 100% compatible drop-in replacement of "encoding/json"
+  package_url: https://pkg.go.dev/github.com/json-iterator/go
+  version: 1.1.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ubogdan/go-playground/blob/main/http-lambda-echo/go.sum
+  detection_source: http-lambda-gin/go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-06-01 20:35:18.000000000 Z
+- name: locales
+  description: ":earth_americas: a set of locales generated from the CLDR Project
+    which can be used independently or within an i18n package; these were built for
+    use with"
+  package_url: https://pkg.go.dev/github.com/go-playground/locales
+  version: 0.13.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ubogdan/go-playground/blob/main/http-lambda-echo/go.sum
+  detection_source: http-lambda-gin/go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-05-05 02:43:10.000000000 Z
+- name: mimetype
+  description: A golang library for detecting the MIME type and file extension
+  package_url: https://pkg.go.dev/github.com/gabriel-vasile/mimetype
+  version: 1.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ubogdan/go-playground/blob/main/http-lambda-gin/go.sum
+  detection_source: http-lambda-gin/go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-06-01 20:35:18.000000000 Z
+- name: mux
+  description: "A powerful HTTP router and URL matcher for building Go web servers
+    with \U0001F98D"
+  package_url: https://pkg.go.dev/github.com/gorilla/mux
+  version: 1.7.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ubogdan/go-playground/blob/main/http-lambda-echo/go.sum
+  detection_source: http-lambda-mux/go.mod
+  last_updated_by: Bogdan Ungureanu
+  last_updated_on: 2021-10-27 19:59:59.000000000 Z
+- name: net
+  description: Go supplementary network libraries
+  package_url: https://pkg.go.dev/golang.org/x/net
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ubogdan/go-playground/blob/main/chat-gpt-repl/go.sum
+  detection_source: http-lambda-echo/go.mod
+  last_updated_by: Bogdan Ungureanu
+  last_updated_on: 2021-10-27 20:00:14.000000000 Z
+- name: netlink
+  description: Simple netlink library for go
+  package_url: https://pkg.go.dev/github.com/vishvananda/netlink
+  version: 1.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ubogdan/go-playground/blob/main/netlink-vlan/go.sum
+  detection_source: netlink-vlan/go.mod
+  last_updated_by: Bogdan Ungureanu
+  last_updated_on: 2022-11-10 20:33:16.000000000 Z
+- name: netns
+  description: Simple network namespace handling for go
+  package_url: https://pkg.go.dev/github.com/vishvananda/netns
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ubogdan/go-playground/blob/main/netlink-vlan/go.sum
+  detection_source: netlink-vlan/go.mod
+  last_updated_by: Bogdan Ungureanu
+  last_updated_on: 2022-11-10 20:33:16.000000000 Z
+- name: reflect2
+  description: Reflect api without runtime reflect.Value cost
+  package_url: https://pkg.go.dev/github.com/modern-go/reflect2
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ubogdan/go-playground/blob/main/http-lambda-echo/go.sum
+  detection_source: http-lambda-gin/go.mod
+  last_updated_by: Bogdan Ungureanu
+  last_updated_on: 2022-09-18 20:51:56.000000000 Z
+- name: sys
+  description: Go packages for low-level interaction with the operating system
+  package_url: https://pkg.go.dev/golang.org/x/sys
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ubogdan/go-playground/blob/main/chat-gpt-repl/go.sum
+  detection_source: http-lambda-echo/go.mod
+  last_updated_by: Bogdan Ungureanu
+  last_updated_on: 2021-10-27 20:00:14.000000000 Z
+- name: text
+  description: Go text processing support
+  package_url: https://pkg.go.dev/golang.org/x/text
+  version: 0.3.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ubogdan/go-playground/blob/main/chat-gpt-repl/go.sum
+  detection_source: http-lambda-echo/go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-11 23:24:33.000000000 Z
+- name: universal-translator
+  description: ":speech_balloon: i18n Translator for Go/Golang using CLDR data + pluralization
+    rules"
+  package_url: https://pkg.go.dev/github.com/go-playground/universal-translator
+  version: 0.17.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ubogdan/go-playground/blob/main/http-lambda-echo/go.sum
+  detection_source: http-lambda-gin/go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-06-01 20:35:18.000000000 Z
+- name: yaml.v2
+  description: YAML support for the Go language
+  package_url: https://pkg.go.dev/gopkg.in/yaml.v2
+  version: 2.2.4
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ubogdan/go-playground/blob/main/chat-gpt-repl/go.sum
+  detection_source: http-lambda-gin/go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-05-05 02:43:10.000000000 Z
+  vulnerabilities:
+  - name: Excessive Platform Resource Consumption within a Loop in Kubernetes
+    cve_id: CVE-2019-11254
+    cve_url: https://github.com/advisories/GHSA-wxc4-f4m6-wwqv
+    detected_date: Jan 28
+    severity: moderate
+    first_patched: 2.2.8
