@@ -32,7 +32,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [ubogdan/go-playground](https://github.com/ubogdan/go-playground)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|27<br/>Tools used|12/14/23 <br/>Report generated|
+|27<br/>Tools used|01/04/24 <br/>Report generated|
 |------|------|
 </div>
 
