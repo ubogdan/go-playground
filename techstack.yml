@@ -1,7 +1,8 @@
 repo_name: ubogdan/go-playground
-report_id: 24fe52dd249ffee012eb5fa85a08cce2
+report_id: 8f3a4b0bccc434c04d015fa46f1c36ac
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-14T09:59:21+00:00'
+timestamp: '2024-01-04T15:15:09+00:00'
 requested_by: ubogdan
 provider: github
 branch: main
@@ -17,6 +18,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/ubogdan/go-playground
   detection_source: Repo Metadata
 - name: Echo
   description: High performance, extensible, minimalist Go web framework
@@ -27,6 +29,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/4996/9P0MlumU_400x400.jpg
+  detection_source_url: https://github.com/ubogdan/go-playground/blob/main/http-lambda-echo/go.mod
   detection_source: http-lambda-echo/go.mod
   last_updated_by: Bogdan Ungureanu
   last_updated_on: 2021-10-27 20:00:14.000000000 Z
@@ -39,6 +42,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/4221/7894478.png
+  detection_source_url: https://github.com/ubogdan/go-playground/blob/main/http-lambda-gin/go.mod
   detection_source: http-lambda-gin/go.mod
   last_updated_by: dependabot[bot]
   last_updated_on: 2023-06-01 20:35:18.000000000 Z
@@ -50,6 +54,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Serialization Frameworks
   image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/ubogdan/go-playground/blob/main/http-lambda-gin/go.mod
   detection_source: http-lambda-gin/go.mod
   last_updated_by: dependabot[bot]
   last_updated_on: 2023-06-01 20:35:18.000000000 Z
@@ -61,6 +66,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ubogdan/go-playground
   detection_source: Repo Metadata
 - name: AWS Lambda
   description: Automatically run code in response to modifications to objects in Amazon
@@ -71,6 +77,7 @@ tools:
   category: Application Hosting
   sub_category: Serverless / Task Processing
   image_url: https://img.stackshare.io/service/1909/aws-lambda.png
+  detection_source_url: https://github.com/ubogdan/go-playground/blob/main/http-lambda-echo/go.mod
   detection_source: http-lambda-echo/go.mod
   last_updated_by: Bogdan Ungureanu
   last_updated_on: 2022-04-27 14:51:25.000000000 Z
